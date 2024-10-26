@@ -20,6 +20,8 @@ onBeforeRouteUpdate(async (to, from) => {
       <dl>
         <dt v-if="recipe.educationalLevel">Difficulté</dt>
         <dd v-if="recipe.educationalLevel">{{ recipe.educationalLevel }}</dd>
+        <dt v-if="recipe.estimatedCost">Coût</dt>
+        <dd v-if="recipe.estimatedCost">{{ recipe.estimatedCost }}</dd>
         <dt>Temps de préparation</dt>
         <dd>{{ recipe.prepTime }}</dd>
         <dt>Temps de cuisson</dt>

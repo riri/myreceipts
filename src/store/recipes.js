@@ -11,6 +11,7 @@ let recipes = [
     "image": "img/carbonara.jpg",
     // Howto
     "totalTime": "PT35M", // computed from prepTime+cookTime ?
+    "estimatedCost": "€€",
     // CreativeWork
     "author": "Richard Gill",
     "datePublished": "2024-10-26",
