@@ -14,7 +14,7 @@ const go2About = () => router.push('/about')
   <button @click="go2About">Go to about</button>
   <ul>
     <li v-for="recipe in recipes.list()">
-      <app-link :to="{name: 'recipe', params: {id: recipe.name}}">{{ recipe.name }}</app-link>
+      <app-link :to="{name: 'recipe', params: {id: recipe.identifier}}">{{ recipe.name }}</app-link>
        - {{  recipe.description }}
     </li>
   </ul>
